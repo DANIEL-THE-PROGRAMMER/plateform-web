@@ -29,4 +29,8 @@ export const ButtonBlue = styled.button<{
     linear-gradient(249deg, #2878ff 1.31%, #2c65c8 100%)
   );
   color:white;
+  display:inline-flex;
+  text-align:center;
+  justify-content:center;
+  align-items:center;
 `;

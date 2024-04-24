@@ -30,3 +30,17 @@
   }
 }
 
+.peoplemarque{
+  animation: peoplemarque 10s linear 2s infinite forwards;
+}
+
+
+@keyframes peoplemarque {
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
