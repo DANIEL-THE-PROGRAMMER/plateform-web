@@ -3,6 +3,7 @@ import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import StyledComponentsRegistry from "./lib/registry";
 import { Nav } from "./components/view/nav";
+import { Footer } from "./components/view/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const plus = Plus_Jakarta_Sans({
@@ -27,6 +28,7 @@ export default function RootLayout({
         <StyledComponentsRegistry>
           <Nav />
           {children}
+          <Footer />
         </StyledComponentsRegistry>
       </body>
     </html>

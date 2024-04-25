@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export const AboutUs = () => {
   return (
-    <div className="overflow-x-hidden font-plus">
+    <div className="overflow-x-hidden font-plus relative">
+       
       <div className="flex flex-col items-center pt-[78px]">
         <span className="bg-[#F1F6FF] tracking-[2.4px] py-[16px] px-[24px] rounded-[8px]">
           <Text>THIS IS PLATFORM</Text>

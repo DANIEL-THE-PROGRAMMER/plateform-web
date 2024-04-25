@@ -6,6 +6,8 @@ import { Communication } from "./components/section/communication";
 import { Analytics } from "./components/section/analytics";
 import { Pricing } from "./components/section/pricing";
 import { WhatPpleSay } from "./components/section/whatsay";
+import { SuccessStory } from "./components/section/successstroy";
+import { SignUp } from "./components/section/signup";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <Analytics />
       <Pricing />
       <WhatPpleSay />
+      <SuccessStory />
+      <SignUp/>
     </>
   );
 }

@@ -1,11 +1,13 @@
 import { Text } from "../styles";
 import Image from "next/image";
+import { AboutFrame } from "../styles";
 
 
 export const Feature = () => {
     return (
       <>
         <div className="relative mt-[76px] pb-[107px]">
+          <AboutFrame />
           <div className="py-[108px] container mx-auto flex items-center">
             <div className="w-[40%]">
               <span className="bg-[#F1F6FF] tracking-[2.4px] py-[16px] px-[24px] rounded-[8px] font-plus">
@@ -26,6 +28,30 @@ export const Feature = () => {
             </div>
             <div className="w-[60%] pr-[60px] pt-[62px] flex justify-end">
               <div className="relative">
+                <Image
+                  src="/assets/image 23.png"
+                  alt=""
+                  sizes="100vw"
+                  width={151}
+                  height={143}
+                  className="absolute z-10 right-[-75px] top-[-72px]"
+                />
+                <Image
+                  src="/assets/pizzaright.png"
+                  alt=""
+                  sizes="100vw"
+                  width={117}
+                  height={104}
+                  className="absolute z-10 bottom-[30px] left-[-50px]"
+                />
+                <Image
+                  src="/assets/Frame 14.png"
+                  alt=""
+                  sizes="100vw"
+                  width={110}
+                  height={103}
+                  className="absolute z-10 right-[-40px] bottom-0"
+                />
                 <div className="relative w-[436px] h-[326px]">
                   <Image
                     src="/assets/Frame 927.png"
@@ -37,7 +63,7 @@ export const Feature = () => {
               </div>
             </div>
           </div>
-          <div className="container mx-auto mt-[160px] flex justify-between">
+          <div className="container mx-auto mt-[100px] flex justify-between relative z-10">
             <div className="flex items-center gap-[16px]">
               <div className="w-[64px] h-[64px] rounded-[12px] bg-[#F1F6FF] flex items-center justify-center">
                 <Image
