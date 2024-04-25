@@ -1,10 +1,11 @@
 import { Text } from "../styles";
 import Image from "next/image";
-
+import { AboutFrame } from "../styles";
 export const Analytics = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative pt-[76px]">
+        <AboutFrame />
         <div className="relative flex container mx-auto font-plus mt-[100px] mb-[81px]">
           <div className="w-[40%]">
             <span className="bg-[#F1F6FF] tracking-[2.4px] py-[16px] px-[24px] rounded-[8px] font-plus">
@@ -79,6 +80,28 @@ export const Analytics = () => {
                     when needed and more.
                   </span>
                 </span>
+              </div>
+            </div>
+          </div>
+          <div className="w-[60%] flex flex-col items-end">
+            <div className="flex flex-col gap-[34px] ">
+              <div className="flex gap-[24px] items-end">
+                <div className="relative w-[129px] h-[106px] mb-[30px]">
+                  <Image src="/assets/Decor05.png" alt="" fill sizes="100vw" />
+                </div>
+                <div className="relative">
+                  <div className="relative w-[416px] h-[228px]">
+                    <Image
+                      src="/assets/Frame 969.png"
+                      alt=""
+                      fill
+                      sizes="100vw"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="relative w-[472px] h-[333px]">
+                <Image src="/assets/Frame 959.png" alt="" fill sizes="100vw" />
               </div>
             </div>
           </div>
