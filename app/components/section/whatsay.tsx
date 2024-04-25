@@ -1,10 +1,18 @@
 import Image from "next/image";
-
+import { LeftQuote, RightQuote } from "../styles";
 export const WhatPpleSay = () => {
   return (
     <>
       <div className="relative pb-[120px] pt-[183px] overflow-hidden">
-        <div className="flex container mx-auto font-plus flex-col items-center">
+        <div className="absolute left-0 w-full ">
+            <div className="container justify-between mx-auto z-0 flex px-[70px]">
+                <div className="mt-[121px]">
+                    <LeftQuote />
+                </div>
+                <RightQuote />
+            </div>
+        </div>
+        <div className="flex container mx-auto font-plus flex-col items-center relative z-10">
           <h3 className="text-[40px] leading-[48px] font-bold  #121D2F ">
             What people say
           </h3>

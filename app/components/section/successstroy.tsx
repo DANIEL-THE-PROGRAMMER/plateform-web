@@ -1,13 +1,31 @@
 "use client";
 
 import Image from "next/image";
-import { ButtonBlue, Text } from "../styles";
+import { ButtonBlue, Text, MangoBig, MangoMedium, MangoSmall } from "../styles";
 
 export const SuccessStory = () => {
   return (
     <>
       <div className="relative">
-        <div className="relative container mx-auto py-[130px] px-[200px]">
+        <div className="absolute z-0 w-full left-0 h-full">
+          <div className="relative mx-auto container h-full flex flex-col justify-between">
+            <div className="flex justify-between px-[250px]">
+              <div className="mt-[91px]">
+                <MangoMedium />
+              </div>
+              <MangoBig />
+            </div>
+            <div className="flex justify-between container mx-auto  px-[100px] items-end">
+              <div className="ml-[200px]">
+                <MangoSmall />
+              </div>
+              <div className="mb-[119px]">
+                <MangoSmall />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="relative container mx-auto py-[130px] px-[200px] z-10">
           <div className="flex flex-col items-center">
             <span className="bg-[#F1F6FF] tracking-[2.4px] py-[16px] px-[24px] rounded-[8px]">
               <Text>WE LOVE TO SEE YOU GROW</Text>
